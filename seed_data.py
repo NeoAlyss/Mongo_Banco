@@ -291,3 +291,4 @@ def cargar_datos_iniciales(coleccion):
     else:
         total = coleccion.count_documents({})
         print(f"La colección ya tiene {total} documentos. No se recargaron datos.")
+
