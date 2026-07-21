@@ -6,3 +6,4 @@ def conectar():
     db = client["banco"]
     coleccion = db["clientes"]
     return coleccion
+
